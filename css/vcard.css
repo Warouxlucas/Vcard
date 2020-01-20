@@ -1,0 +1,119 @@
+body{
+    display: flex;
+    font-family: roboto sans-serif;
+    background-color: brown;
+    height: 100vh;
+    
+    background-image: url("../images/onepageScreenshot1.jpg");
+    background-size: cover;
+}
+#vcard_container{
+    min-width: 625px;
+    width: 60%;
+    display : block;
+    margin: auto;
+    box-shadow: 7px 7px 2px 1px rgba(20, 20, 20, .7);
+    border:2px solid black;
+ }
+h1{
+    margin-bottom: 0.1em;
+}
+.title{
+    border-bottom: 1px solid black;
+}
+ .subtitle{
+     margin-top: 0;
+     font-style: italic;
+     font-weight: 600;
+     font-size: larger;
+ }
+/*header{
+    
+    height:8em;
+    margin-top: 15em;
+    background-color: whitesmoke;
+    justify-content: center;
+} */
+.flex_content{
+    width:100%;
+    display: flex;
+    margin:auto;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+}
+.img{
+    background-image: url("../images/profil.jpg");
+    background-size: cover;
+    height: 85%;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* border-radius: 10em; */
+}
+.small{
+    width: 13em;
+}
+.big{
+    width: 55%;
+    padding-left: 2em;
+}
+section{
+    
+    height:20em;
+    background-color: whitesmoke;
+    border-top: black 2px;
+    border-bottom: 2px solid black;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#section_container{
+    height: 95%;
+    width: 95%;
+    margin: auto;
+
+    display: flex;
+    margin:auto;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+}
+#text_container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.left-text{
+    width: 6em;
+}
+.item_list{
+   height: 80%;
+   justify-content: space-around;
+}
+.item{
+    width: 2em;
+    height: 2em;
+    text-align: center;
+}
+
+li {
+    width: 2em;
+    background-color: whitesmoke;
+    border-radius: 4em;
+    display : block;
+    margin-top : auto;
+    margin-bottom : auto;
+    /* padding-top: 0.3em ; */
+}
+i{
+   
+    margin:auto;
+}
+footer {
+    height: 4em;
+    background-color:#2A0E0E; 
+}
+/* la fete aux icones */
+
+/* le fete aux icones */
+.icons{
+    font-size: 2em;
+}
